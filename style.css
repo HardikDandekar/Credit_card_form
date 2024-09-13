@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f3f6;
+}
+
+nav{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+   border-bottom: 0.3vh solid #f2f3f6;
+    height: 8vh;
+    width: 80%;
+    background-color: white;
+
+}
+nav h1{
+    padding: 2vh 0;
+    font-weight: 400;
+   
+}
+.navdiv h1{
+    border-bottom: 0.3vh solid rgba(0, 0, 0, 0.642);
+}
+.div1{
+    margin-left: 10%;
+    height: 40%;
+    background-color: white;
+    width: 80%;
+    /* border: 0.5vh solid black; */
+    border-top: none;
+    margin-bottom: 10vh;
+}
+.div1 > h1{
+    text-align: center;
+   padding: 5vh 0;
+   margin-bottom: 5vh;
+}
+.div1-inner{
+    display: flex;
+    justify-content: space-around;
+}
+.div1-inner .card .idivG{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 9vh;
+    width: 8vw;
+    background-color: white;
+    border: 0.4vh solid #28af88;
+    margin-bottom: 2vh;
+
+}
+.div1-inner .card .idivG i {
+    font-size: 5vh;
+    margin-left: 5vh;
+    color: black;
+}
+
+
+
+
+
+.div1-inner .card .idiv{
+    height: 9vh;
+    width: 8vw;
+    background-color: #f2f3f6;
+    border: 0.2vh solid #d3d6db;
+    margin-bottom: 2vh;
+}
+.div1-inner .card{ 
+   display: block;
+   text-align: center;
+}
+.div1-inner .card h1{
+    font-size: 2.8vh;
+    font-weight: 300;
+}
+.div1-inner .card  .idiv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.div1-inner .card  .idiv  i {
+    font-size: 5vh;
+    margin-left: 5vh;
+    
+color: #d3d6db;
+}
+
+.nav2{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+   border-bottom: 0.3vh solid #f2f3f6;
+    height: 8vh;
+    width: 80%;
+    background-color: white;
+
+}
+.nav2 h1{
+    padding: 2vh 0;
+    font-weight: 400;
+   
+}
+.nav1 .h1div h1{
+    
+    border-bottom: 0.3vh solid rgba(0, 0, 0, 0.642);
+}
+.div2{
+    margin-left: 10%;
+    height: 150%;
+    background-color: white;
+    width: 80%;
+    border-top: none;
+    margin-bottom: 10vh;
+}
+.div2 > h1{
+    text-align: center;
+   padding: 5vh 0;
+   margin-bottom: 5vh;
+  
+}
+.div2 .div2-inner input{
+    width: 60%;
+    height: 5vh;
+    margin-bottom: 3vh;
+}
+.div2 .div2-inner .inp2{
+    width: 30%;
+}
+
+.div2 .div2-inner h1 {
+    font-size: 2vh;
+    padding: 2vh 1vh;
+    font-weight: 500
+    
+}
+
+.div2 .div2-inner h1 , input{
+    margin-left: 20%;  
+}
+.div2 .div2-inner {
+    margin-bottom: 5vh;
+}
+
+.div2 .div3-inner input{
+    width: 60%;
+    height: 5vh;
+    margin-bottom: 3vh;
+}
+.div2 .div3-inner .inp2{
+    width: 30%;
+}
+
+.div2 .div3-inner h1 {
+    font-size: 2vh;
+    padding: 2vh 1vh;
+    font-weight: 500
+    
+}
+
+.div2 .div3-inner h1 , input{
+    margin-left: 20%;  
+}
+.div2 .div3-inner {
+    margin-bottom: 5vh;
+}
+
+.div2 .div4-inner{
+    display: flex;
+}
+.div2 .div4-inner .div4  h1 {
+    font-size: 2vh;
+    font-weight: 500;
+    margin-left: 30vh;
+    margin-bottom: 2vh;
+}
+.div2 .div4-inner .div5  h1 {
+    font-size: 2vh;
+    font-weight: 500;
+    margin-left: 8vh;
+    margin-bottom: 2vh;
+    
+
+}
+
+.div2 .div4-inner .div4  input{
+    margin-left: 29vh;
+}
+
+.div2 .div4-inner .div5 input, .div4 input{
+
+
+  height: 4.5vh;
+  width: 20vw;
+
+}
+.error{
+    width: 60%;
+    height: 5vh;
+    background-color: #ee5662;
+    margin-left: 20%;
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+}
+.error span ,i{
+    color: white;
+    margin-left: 2vh;
+}
+
+.lastDiv{
+    display: flex;
+ border-top: 0.3vh solid #f2f3f6; 
+ 
+  
+    height: 11vh;
+    width: 100%;
+    margin-top: 10vh;
+
+}
+.lastDiv .left{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.3vh solid #f2f3f6; 
+}
+.lastDiv .left input{
+ margin-right: 2vh;
+}
+
+.lastDiv .left span{
+   font-size: 2.4vh;
+}
+.lastDiv .right{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lastDiv .right button{
+    font-size: 1.5vh;
+    height: 5vh;
+    width: 8vw;
+    background-color: #28af88;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
